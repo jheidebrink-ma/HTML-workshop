@@ -33,6 +33,5 @@ die zet je tussen de `src="HIER KOMT DE LINK"`
 
 ## Resultaat
 
-```
+
 ![pokeblokresult2.PNG](img/pokeblokresult2.PNG)
-```
