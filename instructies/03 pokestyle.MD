@@ -34,6 +34,7 @@ nu nog het blokje, we geven deze:
 
 
 in het `CSS` window type je:
+
 ![css2.PNG](img/css2.PNG)
 
 - Zie jij welke wat doet?
@@ -61,17 +62,28 @@ in het `CSS` window type je:
 
 ![css4.PNG](img/css4.PNG)
 
+De tekst komt in het midden te staan door:
+- `justify-content: center;`
+- `align-items: center;`
+
 ### Result
 
 ![cssresult4.PNG](img/cssresult4.PNG)
 
 ## nu het plaatje nog
 
-Hier gaan we dezelfde properties gebruiken:
+maak nu in het `CSS` window een nieuw blok aan voor `figure`
+vergeet je `{` en `}` niet
+
+binnen de `{` en `}` zetten we onze stijl.
+Hier gaan we dezelfde properties gebruiken :
 - height: 70%;
 - display: flex;
 - justify-content: center;
 - align-items: center;
 
 Die 70% is dus de rest van de 100% van het `article`
+
+probeer dit zelf!
+- kijk naar de andere code
  
