@@ -51,17 +51,19 @@ in het `CSS` window type je:
 
 ![css3.PNG](img/css3.PNG)
 
-Dan krijg je 
+### Result
+
 ![cssresult3.PNG](img/cssresult3.PNG)
 
 ## Center
 
 in het `CSS` window type je:
 
-![css3.PNG](img/css3.PNG)
+![css4.PNG](img/css4.PNG)
 
-Dan krijg je 
-![cssresult3.PNG](img/cssresult3.PNG)
+### Result
+
+![cssresult4.PNG](img/cssresult4.PNG)
 
 ## nu het plaatje nog
 
