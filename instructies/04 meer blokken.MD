@@ -50,4 +50,15 @@ gebruik
 ## Resultaat
 
 dan zien we dit:
+
+![gapped.PNG](img/gapped.PNG)
+
+## Andere pokemon
+
+Verander het tweede en derde blok zodat je andere pokemon hebt
+
+- Water: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png`
+- Fire `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png`
+
+## Resultaat
 ![gapped.PNG](img/gapped.PNG)
