@@ -20,8 +20,7 @@ En we voegen dit toe in het `CSS` window
 
 nu gaan we het `spel` beginnen ^.^
 plak deze code in het `JS` window
-
-'''
+```
     function chooseYou(article)
     {
         console.log(article);
@@ -35,4 +34,4 @@ plak deze code in het `JS` window
         console.log(articles[i]);
         articles[i].addEventListener('click',chooseYou);
     }
-'''
+```
