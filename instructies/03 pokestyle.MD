@@ -88,14 +88,14 @@ probeer dit zelf!
 - kijk naar de andere code
 
 lukt het niet? kijk hieronder
-<p>
+
 <details>
 <summary>Code oplossing</summary>
 
 ![plaatjeoplossing.PNG](img/plaatjeoplossing.PNG)
 
 </details>
-</p>
+
 ## Result
 
 nu hebben we 1 blok af
