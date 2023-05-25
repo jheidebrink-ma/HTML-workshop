@@ -1,24 +1,37 @@
-# Pokestyle
+# 3 starters
 
-Het is nog vrij stijlloos, laten we dat aanpakken!
+Nu hebben we maar 1 starter
+Laten we er meer maken
 
 ## Opzetten van het blok
 
-we gaan nu stijl aangeven, dat doen we in het `CSS` window
+kopieer het `article` en plak deze `2` keer zodat je dit krijgt:
+
+![starters1.PNG](img/starters1.PNG)
 
 
-![css.PNG](img/css.PNG)
+## Onder elkaar?
 
-## Background maken
+Ze komen onder elkaar...
+we willen ze naast elkaar!
 
-We willen een poke-ball achtige achtergrond, dus rood-wit
+Hoe doen we dat?
+- `display: flex;`
 
-in het `CSS` window type je:
+Deze zetten we op de `body` in het `CSS` window
 
 
+![naast.PNG](img/naast.PNG)
+<p>
+<details>
+<summary>Click this to collapse/fold.</summary>
 
-![css1.PNG](img/css1.PNG)
+These details <em>remain</em> <strong>hidden</strong> until expanded.
 
+<pre><code>PASTE LOGS HERE</code></pre>
+
+</details>
+</p>
 ## Resultaat
 
 nu krijg je ongeveer dit te zien:
