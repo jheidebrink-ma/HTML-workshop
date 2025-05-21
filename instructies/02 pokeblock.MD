@@ -20,7 +20,7 @@ Plaats daar de onderstaande code.
 
 ## Resultaat
 Nu zie je iets meer tekst staan, maar nog geen plaatje.
-![result2_1](../instructies/img/result2_1.png)
+![result2_1](../img/result2_1.png)
 
 ## Plaatje voorbereiden
 Voordat wij een afbeelding kunnen zien op de webpagina moet je tegen de browser vertellen dat er een afbeelding is.  
@@ -37,5 +37,5 @@ In de `src` attribute van de image tag plaats je nu een link naar de afbeelding:
 
 ## Resultaat
 Je ziet nu in het voorbeeld gedeelte een pokemon verschijnen.  
-![result2_2.png](../instructies/img/result2_2.png)
+![result2_2.png](../img/result2_2.png)
 

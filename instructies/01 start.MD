@@ -5,13 +5,13 @@ HTML _(HyperText Markup Language)_ is een opmaaktaal die wordt gebruikt om de st
 CSS _(Cascading Style Sheets)_ is een opmaaktaal die wordt gebruikt om de vormgeving en lay-out van HTML-elementen op een webpagina te bepalen.
 In deze workshop ga je een Pokemon website maken van drie verschillende pokemon met hun naam.  
 Voorbeeld:
-![einddoel.PNG](../instructies/img/einddoel.PNG)
+![einddoel.PNG](../img/einddoel.PNG)
 
 ## Press START!
 Open de volgende link in je browser:  
 https://codepen.io/pen/
 
-![codepen](../instructies/img/codepen.png)
+![codepen](../img/codepen.png)
 
 ## Codepen 
 Je ziet nu een aantal verschillende vensters, voor wij gaan beginnen doorlopen wij een paar stappen.   
@@ -21,7 +21,7 @@ Linksboven kun je op het ``potloodje`` naast 'Untitled' klikken om je werk een n
 
 ## HTML
 Op de pagina zie je het volgende blok:  
-![htmlwindow](../instructies/img/htmlwindow.PNG)  
+![htmlwindow](../img/htmlwindow.PNG)  
 Dat is waar we onze `HTML` code gaan typen
 
 ## Basis HTML
@@ -33,4 +33,4 @@ Plaats nu een titel in het `HTML` window door de volgende tekst te typen:
 ## Resultaat
 Je ziet nu een titel bovenaan de pagina staan.
 Nu gaan we een paar dingen toevoegen aan de pagina.
-![result1.png](../instructies/img/result1.png)
+![result1.png](../img/result1.png)

@@ -4,7 +4,7 @@ Het is nog vrij stijlloos, laten we dat aanpakken!
 
 ## Opzetten van het blok
 Je gaat nu de vormgeving aanpassen, dat doen we in het `CSS` window
-![css.PNG](../instructies/img/css.PNG)
+![css.PNG](../img/css.PNG)
 
 ## Background maken
 We willen een poke-ball achtige achtergrond, dus rood-wit met een diagonale lijn.
@@ -19,7 +19,7 @@ body {
 
 ## Resultaat
 Nu krijg je ongeveer dit te zien:  
-![result3_1.png](../instructies/img/result3_1.png)
+![result3_1.png](../img/result3_1.png)
 
 ## Het pokemon blokje
 Nu nog het blokje, we geven deze:
@@ -40,7 +40,7 @@ article {
 _Zie jij welke regel wat doet?_
 
 ## Resultaat
-![result3_1.png](../instructies/img/result3_2.png)
+![result3_1.png](../img/result3_2.png)
 
 
 ## Grass
@@ -54,7 +54,7 @@ header {
 ```
 
 ### Result
-![result3_3.png](../instructies/img/result3_3.png)
+![result3_3.png](../img/result3_3.png)
 
 ## Center
 Om de tekst nu beter uit te lijnen kun je deze centreren in het blokje door de volgende code toe te voegen aan het `header` blokje:
@@ -65,7 +65,7 @@ Om de tekst nu beter uit te lijnen kun je deze centreren in het blokje door de v
 ```
 
 ### Result
-![result3_4.png](../instructies/img/result3_4.png)
+![result3_4.png](../img/result3_4.png)
 
 ## Nu het plaatje
 Maak nu in het `CSS` window een nieuw blok aan voor `figure`  
@@ -110,5 +110,5 @@ h1 {
 
 ## Result
 Nu hebben we 1 blok af.  
-![result3_5.png](../instructies/img/result3_5.png)
+![result3_5.png](../img/result3_5.png)
 

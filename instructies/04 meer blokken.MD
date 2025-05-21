@@ -5,7 +5,7 @@ Nu hebben we maar één starter, laten wij er meer maken.
 ## Opzetten van het blok
 Kopieer het hele `article` blok en plak deze nog `2` keer onder het eerste `article` blok, maar boven het `</cards>` blok, zodat je dit te zien krijgt:
 
-![starters1.PNG](../instructies/img/starters1.PNG)
+![starters1.PNG](../img/starters1.PNG)
 
 
 ## Onder elkaar?
@@ -15,7 +15,7 @@ Hoe doen we dat?
 - `display: flex;`
 
 Deze css code zetten we op de `body` in het `CSS` window.  
-![naast.PNG](../instructies/img/naast.PNG)
+![naast.PNG](../img/naast.PNG)
 
 Probeer het zelf, lukt het niet? kijk hieronder
 
@@ -55,14 +55,14 @@ cards{
 <details>
 <summary>Code oplossing</summary>
 
-![gap.PNG](../instructies/img/gap.PNG)
+![gap.PNG](../img/gap.PNG)
 
 </details>
 
 ## Resultaat
 Dan zien we dit:  
 
-![gapped.PNG](../instructies/img/gapped.PNG)
+![gapped.PNG](../img/gapped.PNG)
 
 ## Andere pokemon
 Verander het tweede en derde blok zodat je andere pokemon hebt.  
@@ -70,4 +70,4 @@ Verander het tweede en derde blok zodat je andere pokemon hebt.
 - Fire `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png`
 
 ## Resultaat
-![gapped.PNG](../instructies/img/gapped.PNG)
+![img.png](../img/result4.png)
