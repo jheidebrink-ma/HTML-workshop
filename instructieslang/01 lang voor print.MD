@@ -4,12 +4,12 @@ HTML _(HyperText Markup Language)_ is een opmaaktaal die wordt gebruikt om de st
 CSS _(Cascading Style Sheets)_ is een opmaaktaal die wordt gebruikt om de vormgeving en lay-out van HTML-elementen op een webpagina te bepalen.
 In deze workshop ga je een Pokemon website maken van drie verschillende pokemon met hun naam.  
 Voorbeeld:
-![einddoel.PNG](../instructies/img/einddoel.PNG)
+![einddoel.PNG](../img/einddoel.PNG)
 
 ## Press START!
 Open de volgende link in je browser:  
 https://codepen.io/pen/  
-![codepen](../instructies/img/codepen.png)
+![codepen](../img/codepen.png)
 
 ## Codepen
 Je ziet nu een aantal verschillende vensters, voor wij gaan beginnen doorlopen wij een paar stappen.   
@@ -19,7 +19,7 @@ Linksboven kun je op het ``potloodje`` naast 'Untitled' klikken om je werk een n
 
 ## HTML
 Op de pagina zie je het volgende blok:  
-![htmlwindow](../instructies/img/htmlwindow.PNG)  
+![htmlwindow](../img/htmlwindow.PNG)  
 Dat is waar we onze `HTML` code gaan typen
 
 ## Basis HTML
@@ -31,7 +31,7 @@ Plaats nu een titel in het `HTML` window door de volgende tekst te typen:
 ## Resultaat
 Je ziet nu een titel bovenaan de pagina staan.
 Nu gaan we een paar dingen toevoegen aan de pagina.
-![result1.png](../instructies/img/result1.png)
+![result1.png](../img/result1.png)
 
 
 ---
@@ -57,7 +57,7 @@ Plaats daar de onderstaande code.
 
 ## Resultaat
 Nu zie je iets meer tekst staan, maar nog geen plaatje.
-![result2_1](../instructies/img/result2_1.png)
+![result2_1](../img/result2_1.png)
 
 ## Plaatje voorbereiden
 Voordat wij een afbeelding kunnen zien op de webpagina moet je tegen de browser vertellen dat er een afbeelding is.  
@@ -74,7 +74,7 @@ In de `src` attribute van de image tag plaats je nu een link naar de afbeelding:
 
 ## Resultaat
 Je ziet nu in het voorbeeld gedeelte een pokemon verschijnen.  
-![result2_2.png](../instructies/img/result2_2.png)
+![result2_2.png](../img/result2_2.png)
 
 
 ---
@@ -86,7 +86,7 @@ Het is nog vrij stijlloos, laten we dat aanpakken!
 
 ## Opzetten van het blok
 Je gaat nu de vormgeving aanpassen, dat doen we in het `CSS` window
-![css.PNG](../instructies/img/css.PNG)
+![css.PNG](../img/css.PNG)
 
 ## Background maken
 We willen een poke-ball achtige achtergrond, dus rood-wit met een diagonale lijn.
@@ -101,7 +101,7 @@ body {
 
 ## Resultaat
 Nu krijg je ongeveer dit te zien:  
-![result3_1.png](../instructies/img/result3_1.png)
+![result3_1.png](../img/result3_1.png)
 
 ## Het pokemon blokje
 Nu nog het blokje, we geven deze:
@@ -122,7 +122,7 @@ article {
 _Zie jij welke regel wat doet?_
 
 ## Resultaat
-![result3_1.png](../instructies/img/result3_2.png)
+![result3_1.png](../img/result3_2.png)
 
 
 ## Grass
@@ -136,7 +136,7 @@ header {
 ```
 
 ### Result
-![result3_3.png](../instructies/img/result3_3.png)
+![result3_3.png](../img/result3_3.png)
 
 ## Center
 Om de tekst nu beter uit te lijnen kun je deze centreren in het blokje door de volgende code toe te voegen aan het `header` blokje:
@@ -147,7 +147,7 @@ Om de tekst nu beter uit te lijnen kun je deze centreren in het blokje door de v
 ```
 
 ### Result
-![result3_4.png](../instructies/img/result3_4.png)
+![result3_4.png](../img/result3_4.png)
 
 ## Nu het plaatje
 Maak nu in het `CSS` window een nieuw blok aan voor `figure`  
@@ -192,7 +192,7 @@ h1 {
 
 ## Result
 Nu hebben we 1 blok af.  
-![result3_5.png](../instructies/img/result3_5.png)
+![result3_5.png](../img/result3_5.png)
 
 ---
 
@@ -204,7 +204,7 @@ Nu hebben we maar één starter, laten wij er meer maken.
 ## Opzetten van het blok
 Kopieer het hele `article` blok en plak deze nog `2` keer onder het eerste `article` blok, maar boven het `</cards>` blok, zodat je dit te zien krijgt:
 
-![starters1.PNG](../instructies/img/starters1.PNG)
+![starters1.PNG](../img/starters1.PNG)
 
 
 ## Onder elkaar?
@@ -214,7 +214,7 @@ Hoe doen we dat?
 - `display: flex;`
 
 Deze css code zetten we op de `body` in het `CSS` window.  
-![naast.PNG](../instructies/img/naast.PNG)
+![naast.PNG](../img/naast.PNG)
 
 Probeer het zelf, lukt het niet? kijk hieronder
 
@@ -254,14 +254,14 @@ cards{
 <details>
 <summary>Code oplossing</summary>
 
-![gap.PNG](../instructies/img/gap.PNG)
+![gap.PNG](../img/gap.PNG)
 
 </details>
 
 ## Resultaat
 Dan zien we dit:
 
-![gapped.PNG](../instructies/img/gapped.PNG)
+![gapped.PNG](../img/gapped.PNG)
 
 ## Andere pokemon
 Verander het tweede en derde blok zodat je andere pokemon hebt.
@@ -269,7 +269,7 @@ Verander het tweede en derde blok zodat je andere pokemon hebt.
 - Fire `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png`
 
 ## Resultaat
-![gapped.PNG](../instructies/img/gapped.PNG)
+![gapped.PNG](../img/gapped.PNG)
 
 ---
 
