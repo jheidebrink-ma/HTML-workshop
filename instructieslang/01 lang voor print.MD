@@ -1,269 +1,296 @@
 # HTML workshop
-
-
-## wat we gaan maken:
-
-![einddoel.PNG](img/einddoel.PNG)
+## Introductie in HTML en CSS.
+HTML _(HyperText Markup Language)_ is een opmaaktaal die wordt gebruikt om de structuur en inhoud van webpagina's te definiëren.  
+CSS _(Cascading Style Sheets)_ is een opmaaktaal die wordt gebruikt om de vormgeving en lay-out van HTML-elementen op een webpagina te bepalen.
+In deze workshop ga je een Pokemon website maken van drie verschillende pokemon met hun naam.  
+Voorbeeld:
+![einddoel.PNG](../instructies/img/einddoel.PNG)
 
 ## Press START!
+Open de volgende link in je browser:  
+https://codepen.io/pen/  
+![codepen](../instructies/img/codepen.png)
 
-open de volgende link in je browser:
+## Codepen
+Je ziet nu een aantal verschillende vensters, voor wij gaan beginnen doorlopen wij een paar stappen.   
+Het JS venster kun je sluiten, hier gaan wij volgend jaar mee aan de slag.  
+Rechtsboven kun je op ``Sign Up`` klikken om een account aan te maken zodat je je werk kunt opslaan.
+Linksboven kun je op het ``potloodje`` naast 'Untitled' klikken om je werk een naam te geven.
 
-https://codepen.io/pen/
-
-## Html
-
-Op de pagina zie je het volgende:
-
-![htmlwindow.PNG](img/htmlwindow.PNG)
-
+## HTML
+Op de pagina zie je het volgende blok:  
+![htmlwindow](../instructies/img/htmlwindow.PNG)  
 Dat is waar we onze `HTML` code gaan typen
 
-## Basis html
-
-type de volgende code in het `HTML` window
-
-
-![htmltag.PNG](img/htmltag.PNG)
+## Basis HTML
+Plaats nu een titel in het `HTML` window door de volgende tekst te typen:
+```html
+<h1>Dit is mijn titel.</h1>
+```
 
 ## Resultaat
+Je ziet nu een titel bovenaan de pagina staan.
+Nu gaan we een paar dingen toevoegen aan de pagina.
+![result1.png](../instructies/img/result1.png)
 
-Je ziet nog niets.
-Dat klopt!
 
-We hebben nog geen tekst, kleur en plaatjes toegevoegd
-
+---
 
 
 # Poke blok
-
 We gaan verder, we gaan nu blokjes maken voor de pokemon
 
 
 ## Opzetten van het blok
-
-type de volgende code in het `HTML` window
-
-
-![pokeblok.PNG](img/pokeblok.PNG)
+Nu ga je een structuur neerzetten voor de pokemon, dat doen we in het `HTML` window.  
+Plaats daar de onderstaande code.
+```html
+<article>
+    <header>
+        <h2>Grass</h2>
+    </header>
+    <figure>
+        
+    </figure>
+</article>
+```
 
 ## Resultaat
+Nu zie je iets meer tekst staan, maar nog geen plaatje.
+![result2_1](../instructies/img/result2_1.png)
 
-nu zien we tekst:
+## Plaatje voorbereiden
+Voordat wij een afbeelding kunnen zien op de webpagina moet je tegen de browser vertellen dat er een afbeelding is.  
+Hiervoor moet je een ```img``` tag maken.
+```html
+<figure>
+    <img src="" alt="Grass Pokemon">
+</figure>
+```
 
-![pokeblokresult1.PNG](img/pokeblokresult1.PNG)
-
-## plaatje voorbereiden
-
-Nu het plaatje, in de `figure` tag gaan we typen:
-
-
-![pokeblok2.PNG](img/pokeblok2.PNG)
-
-## het plaatje laden
-
-in `src=""` gaan we nu een link plaatsen:
-
+## Het plaatje laden
+In de `src` attribute van de image tag plaats je nu een link naar de afbeelding:
 `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png`
 
-die zet je tussen de `src="HIER KOMT DE LINK"`
-
 ## Resultaat
+Je ziet nu in het voorbeeld gedeelte een pokemon verschijnen.  
+![result2_2.png](../instructies/img/result2_2.png)
 
 
-![pokeblokresult2.PNG](img/pokeblokresult2.PNG)
+---
+
 
 # Pokestyle
 
 Het is nog vrij stijlloos, laten we dat aanpakken!
 
 ## Opzetten van het blok
-
-we gaan nu stijl aangeven, dat doen we in het `CSS` window
-
-
-![css.PNG](img/css.PNG)
+Je gaat nu de vormgeving aanpassen, dat doen we in het `CSS` window
+![css.PNG](../instructies/img/css.PNG)
 
 ## Background maken
-
-We willen een poke-ball achtige achtergrond, dus rood-wit
-
-in het `CSS` window type je:
-
-
-
-![css1.PNG](img/css1.PNG)
+We willen een poke-ball achtige achtergrond, dus rood-wit met een diagonale lijn.
+In het `CSS` window type je:
+```css
+body {
+    background: linear-gradient(45deg, #ee1515 50%, white 50%);
+    min-height: 100vh;
+    width: 100%;
+}
+```
 
 ## Resultaat
+Nu krijg je ongeveer dit te zien:  
+![result3_1.png](../instructies/img/result3_1.png)
 
-nu krijg je ongeveer dit te zien:
-
-![cssresult1.PNG](img/cssresult1.PNG)
-
-## het blokje
-
-nu nog het blokje, we geven deze:
+## Het pokemon blokje
+Nu nog het blokje, we geven deze:
 - een achtergrond kleur
 - een hoogte & breedte
-- een shaduw
+- een schaduw
 
+In het `CSS` window type je:
+```css
+article {
+    background-color: #f2f2f2;
+    height: 300px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+```
 
-in het `CSS` window type je:
-
-![css2.PNG](img/css2.PNG)
-
-- Zie jij welke wat doet?
+_Zie jij welke regel wat doet?_
 
 ## Resultaat
+![result3_1.png](../instructies/img/result3_2.png)
 
-![cssresult2.PNG](img/cssresult2.PNG)
 
 ## Grass
-
-De grass tekst staat nog niet mooi, we beginnen met een hoogte 
-
-
-in het `CSS` window type je:
-
-![css3.PNG](img/css3.PNG)
+De grass tekst staat nog niet mooi, we beginnen met een achtergrond kleur en de hoogte.   
+Gebruik hiervoor de volgende css code:
+```css
+header {
+    background-color: #4caf50;
+    height: 30%;
+}
+```
 
 ### Result
-
-![cssresult3.PNG](img/cssresult3.PNG)
+![result3_3.png](../instructies/img/result3_3.png)
 
 ## Center
-
-in het `CSS` window type je:
-
-![css4.PNG](img/css4.PNG)
-
-De tekst komt in het midden te staan door:
-- `justify-content: center;`
-- `align-items: center;`
+Om de tekst nu beter uit te lijnen kun je deze centreren in het blokje door de volgende code toe te voegen aan het `header` blokje:
+```css
+    display: flex;
+    justify-content: center;
+    align-items: center;
+```
 
 ### Result
+![result3_4.png](../instructies/img/result3_4.png)
 
-![cssresult4.PNG](img/cssresult4.PNG)
-
-## nu het plaatje nog
-
-maak nu in het `CSS` window een nieuw blok aan voor `figure`
-vergeet je `{` en `}` niet
-
-binnen de `{` en `}` zetten we onze stijl.
+## Nu het plaatje
+Maak nu in het `CSS` window een nieuw blok aan voor `figure`  
+Vergeet je `{` en `}` niet.  
+Binnen de `{` en `}` zetten we onze stijl.  
 Hier gaan we dezelfde properties gebruiken :
 - height: 70%;
 - display: flex;
 - justify-content: center;
 - align-items: center;
 
-Die 70% is dus de rest van de 100% van het `article`
-
-probeer dit zelf!
-- kijk naar de andere code
-
-lukt het niet? kijk hieronder
+Die 70% is dus de rest van de 100% van het `article` na aftrek van de hoogte van de `header`.  
+**Probeer dit zelf!**
+Kijk hiervoor ook naar de structuur van de andere code.  
+Lukt het niet? kijk hieronder.
 
 <details>
 <summary>Code oplossing</summary>
 
-![plaatjeoplossing.PNG](img/plaatjeoplossing.PNG)
+```css
+figure {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+```
 
 </details>
 
+## header
+Je kunt ook de bovenste titel aanpassen wat stijl betreft door de kleur aan te passen en het font.  
+Bijvoorbeeld met de volgende code:
+```css
+h1 {
+    color: orange;
+    font-family: courier, monospace;
+    padding: 1rem;
+    text-align: center;
+}
+```
+
 ## Result
+Nu hebben we 1 blok af.  
+![result3_5.png](../instructies/img/result3_5.png)
 
-nu hebben we 1 blok af
+---
 
-![cssresult5.PNG](img/cssresult5.PNG)
+
 # 3 starters
 
-Nu hebben we maar 1 starter
-Laten we er meer maken
+Nu hebben we maar één starter, laten wij er meer maken.
 
 ## Opzetten van het blok
+Kopieer het hele `article` blok en plak deze nog `2` keer onder het eerste `article` blok, maar boven het `</cards>` blok, zodat je dit te zien krijgt:
 
-kopieer het `article` en plak deze `2` keer zodat je dit krijgt:
-
-![starters1.PNG](img/starters1.PNG)
+![starters1.PNG](../instructies/img/starters1.PNG)
 
 
 ## Onder elkaar?
-
-Ze komen onder elkaar...
-we willen ze naast elkaar!
-
+Ze komen onder elkaar...  
+Het is nog leuker als ze naast elkaar komen.
 Hoe doen we dat?
 - `display: flex;`
 
-Deze zetten we op de `body` in het `CSS` window
+Deze css code zetten we op de `body` in het `CSS` window.  
+![naast.PNG](../instructies/img/naast.PNG)
 
-
-![naast.PNG](img/naast.PNG)
-
-probeer het zelf, lukt het niet? kijk hieronder
+Probeer het zelf, lukt het niet? kijk hieronder
 
 <details>
 <summary>Code oplossing</summary>
 
-![naastcode.PNG](img/naastcode.PNG)
+```css
+body {
+    background: linear-gradient(45deg, #ee1515 50%, white 50%);
+    min-height: 100vh;
+    width: 100%;
+}
+cards{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+```
 
 </details>
 
 ## Ruimte!
-
-Nu staan ze op elkaar, even wat ruimte
-Dit doen we weer op de `body` in het `CSS` window 
+Nu staan ze op elkaar, even wat ruimte.  
+Dit doen we weer op de `cards` in het `CSS` window
 
 gebruik
-- `gap: 20px;`
+
+```css
+cards{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+```
 
 <details>
 <summary>Code oplossing</summary>
 
-![gap.PNG](img/gap.PNG)
+![gap.PNG](../instructies/img/gap.PNG)
 
 </details>
 
 ## Resultaat
+Dan zien we dit:
 
-dan zien we dit:
-
-![gapped.PNG](img/gapped.PNG)
+![gapped.PNG](../instructies/img/gapped.PNG)
 
 ## Andere pokemon
-
-Verander het tweede en derde blok zodat je andere pokemon hebt
-
+Verander het tweede en derde blok zodat je andere pokemon hebt.
 - Water: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png`
 - Fire `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png`
 
 ## Resultaat
-![gapped.PNG](img/gapped.PNG)
+![gapped.PNG](../instructies/img/gapped.PNG)
 
-# interactie
+---
 
-Laten we nu wat interactie maken
+# Interactie
+Laten we nu wat interactie maken.
 
 ## Interactie met CSS
-
-Deze zetten we op de `article` in het `CSS` window
-- `transition: 0.2s;`
-
-Dit is de `animatie` snelheid in secondes. Pas die maar aan!
+Deze zetten we op de `article` in het `CSS` window.
+- `transition: 0.2s;`  
+  Dit is de `animatie` snelheid in secondes. Pas die maar aan!
 
 ![transition2.PNG](img/transition2.PNG)
 
-En we voegen dit toe in het `CSS` window
-
+En we voegen dit toe in het `CSS` window  
 ![transition.PNG](img/transition.PNG)
 
 
-## javascript
-
+## Javascript
 nu gaan we het `spel` beginnen ^.^
 plak deze code in het `JS` window
-```
+```javascript
     function chooseYou(article)
     {
         console.log(article);
